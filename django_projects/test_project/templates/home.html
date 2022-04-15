@@ -1,0 +1,48 @@
+{% extends 'base.html' %}
+    
+{% block content %}
+
+<style>
+  .app-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .input{
+    height: 40px;
+    min-width: 400px;
+    border-radius: 8px;
+    outline: none;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+  }
+  label{
+    display: flex;
+    align-self: flex-start;
+  }
+  .btn{
+    padding: 10px;
+    display: flex;
+    align-self: flex-start;
+
+  }
+</style>
+<h1 style="text-align: center;">Hello {{name}}!!</h1>
+<div class="app-container" style="text-align : center">
+  <div style="padding: 10px;">
+    <form action='add' method="post">
+      {% csrf_token %}
+      <label for="name1">Enter First number :</label> <br>
+       <input class="input" type="number" name="name1" id="">
+        <br><br><br>
+        <label for="name2">Enter Second number : </label> <br>
+      <input class="input" type="number" name="name2" id="">
+        <br><br><br>
+        <input class="btn" type="submit" value="Submit">
+    </form>
+  </div>
+</div>
+
+{% endblock %}
