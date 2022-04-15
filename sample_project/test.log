@@ -1,0 +1,11 @@
+2022-03-09 09:53:51,511:ERROR:tried to divide by zero:
+2022-03-09 09:56:19,112:ERROR:tried to divide by zero:
+Traceback (most recent call last):
+  File "/home/vy/sample_project/temp.py", line 25, in div
+    result =  x/y
+ZeroDivisionError: division by zero
+2022-03-09 09:59:49,750:ERROR:tried to divide by zero:
+Traceback (most recent call last):
+  File "/home/vy/sample_project/temp.py", line 29, in div
+    result =  x/y
+ZeroDivisionError: division by zero

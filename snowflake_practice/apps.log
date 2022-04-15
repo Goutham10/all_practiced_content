@@ -1,0 +1,16 @@
+2022-04-07 16:41:50,375 p27610 {/home/vy/snowflake_practice/venv/lib/python3.9/site-packages/snowflake/connector/connection.py:257} INFO - Snowflake Connector for Python Version: 2.7.6, Python Version: 3.9.7, Platform: Linux-5.13.0-39-generic-x86_64-with-glibc2.31
+2022-04-07 16:41:50,376 p27610 {/home/vy/snowflake_practice/venv/lib/python3.9/site-packages/snowflake/connector/connection.py:878} INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+2022-04-07 16:41:50,376 p27610 {/home/vy/snowflake_practice/venv/lib/python3.9/site-packages/snowflake/connector/connection.py:896} INFO - Setting use_openssl_only mode to False
+2022-04-07 16:41:51,051 p27610 {/home/vy/snowflake_practice/venv/lib/python3.9/site-packages/snowflake/connector/connection.py:257} INFO - Snowflake Connector for Python Version: 2.7.6, Python Version: 3.9.7, Platform: Linux-5.13.0-39-generic-x86_64-with-glibc2.31
+2022-04-07 16:41:51,051 p27610 {/home/vy/snowflake_practice/venv/lib/python3.9/site-packages/snowflake/connector/connection.py:878} INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+2022-04-07 16:41:51,612 p27610 {/home/vy/snowflake_practice/venv/lib/python3.9/site-packages/snowflake/connector/cursor.py:700} INFO - query: [select * from data]
+2022-04-07 16:41:51,691 p27610 {/home/vy/snowflake_practice/venv/lib/python3.9/site-packages/snowflake/connector/cursor.py:724} INFO - query execution done
+2022-04-07 16:41:51,702 p27610 {/home/vy/snowflake_practice/app.py:40} INFO -    CUST_KEY     NAME         ADDRESS
+0         1  goutham        ramnagar
+1         2    ramya     hitech-city
+2         3     teja        nacharam
+3         4   Harish       Moula ali
+4         5   Vinith        Madhapur
+5         6   dharma  durgam cheruvu
+2022-04-07 16:41:51,708 p27610 {/home/vy/snowflake_practice/venv/lib/python3.9/site-packages/snowflake/connector/connection.py:509} INFO - closed
+2022-04-07 16:41:51,748 p27610 {/home/vy/snowflake_practice/venv/lib/python3.9/site-packages/snowflake/connector/connection.py:512} INFO - No async queries seem to be running, deleting session
