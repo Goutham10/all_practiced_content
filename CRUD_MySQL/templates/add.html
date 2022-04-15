@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inserting Data</title>
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+    <div class="app-container">
+        <form action="/savedetails" method="post">
+            <h1>Enter User Details</h1>
+            <label for="num">Enter ID :</label>
+            <input type="number" class="input-style" name="id" placeholder="Ex : 1234" required>
+            <br> <br>
+            <label for="name">Enter Name :</label>
+            <input type="text" class="input-style" name="name" placeholder="Ex : Goutham" required>
+            <br> <br>
+            <label for="phone">Enter Phone Number :</label>
+            <input type="number" class="input-style" name="phone" placeholder="Ex : 987654321" required>
+            <br> <br>
+            <label for="email">Enter Email :</label>
+            <input type="email" class="input-style" name="email" placeholder="Ex : xyz@gmail.com" required>
+            <br> <br>
+            <input class="submit-style" type="submit" value="submit">
+        </form>
+    </div>
+</body>
+</html>

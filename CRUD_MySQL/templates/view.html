@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Records</title>
+    <style>
+        .app-container{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        thead{
+            color:firebrick;
+            text-align: center;
+        }
+        td{
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="app-container">
+        <h1>Retriving records from Database</h1>
+        {% block body %}
+        <table border="1">
+            <thead>
+                <td>ID</td>
+                <td>Name</td>
+                <td>Phone</td>
+                <td>Email</td>
+            </thead>
+            {% for row in list_users %}
+            <tr>
+                <td>{{row[0]}}</td>
+                <td>{{row[1]}}</td>
+                <td>{{row[2]}}</td>
+                <td>{{row[3]}}</td>
+            </tr>
+            <br>
+            {% endfor %}
+        </table>        
+        {% endblock %}
+    </div>
+</body>
+</html>

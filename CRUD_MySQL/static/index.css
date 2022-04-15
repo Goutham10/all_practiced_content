@@ -1,0 +1,29 @@
+.app-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    margin-top: 5%;
+}
+h1{
+    margin-bottom: 100px;
+    text-align: center;
+    color: dimgrey;
+}
+a{
+    text-decoration: none;
+    color: firebrick;
+    text-align: center;
+    border-style: solid;
+    border-width: 1px;
+    border-color: firebrick;
+    width: 250px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    padding: 10px;
+    padding-left: 40%;
+    border-radius: 8px;
+}
